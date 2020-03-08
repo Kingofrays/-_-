@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Tenor+Sans&display=swap');
+
+body {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+Header {
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	background-image: linear-gradient(to bottom, #E8E8E8 25%, #3B4EFF 100%);
+	border: 3px solid black;
+	width: 100%;
+	height: 80px;
+}
+
+nav {
+	justify-content: center;
+	align-self: center;
+}
+
+nav a {
+	text-decoration:none;
+	margin: 15px 25px;
+	padding: 15px 20px;
+	border-radius: 10px;
+	color: #0F1E4A;;
+}
+
+nav a:hover {
+	text-decoration: none;
+	border: 2px ridge #0F1E4A;
+	color: #3B4EFF;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	padding-top: 5px;
+}
+
+main {
+	margin: 100px;
+	color: white;
+}
+
+#h1 {
+	font-size: 40px;
+	font-family: Tenor Sans, cursive;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#n1 {
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#h2 {
+	font-size: 30px;
+	font-family: Tenor Sans, cursive;
+}
+
+#n2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 25px;
+	font-family: Marck Script, cursive;
+	border: 2px solid grey;
+}
